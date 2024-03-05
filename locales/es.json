@@ -1,0 +1,47 @@
+{
+	"hello": "hello",
+	"ORDER_EMAIL": {
+		"HI": "Hola",
+		"YOUR_ORDER_IS_CONFIRMED": "Su pedido está confirmado",
+		"THANK_YOU_FOR_YOUR_ORDER": "Gracias por ordenar. Tu pedido está siendo procesado. Tu total es",
+		"ORDER_ID": "Solicitar ID",
+		"VIEW_OR_MANAGE_ORDER": "Ver o administrar su pedido",
+		"SUBTOTAL": "Total parcial",
+		"TAX": "Impuesto",
+		"TOTAL": "Total",
+		"HERE_ARE_THE_DETAILS_OF_YOUR_ORDER": "Aquí están los detalles de su pedido",
+		"SHIPPING_TRACKING_LINK": "Enlace de seguimiento de envío",
+		"THANKS": "Gracias"
+	},
+	"REGISTRATION_EMAIL":{
+        "HI": "Hola",
+        "THANKS_FOR_JOINING": "Gracias por unirte",
+        "TO_CONTINUE_PLEASE_CONFIRM": "Para continuar, por favor confirme su dirección de correo electrónico",
+        "CLICK_BELLOW": "haciendo clic en el botón de abajo",
+        "CONFIRM_EMAIL": "Confirmar correo electrónico",
+        "EMAIL_VERIFICATION": "verificación de correo electrónico batcoin"
+    },
+	"CONFIRM_PASSWORD_EMAIL": {
+        "HI": "Hola",
+        "FORGOT_YOUR_PASSWORD": "Olvidaste tu contraseña",
+        "NOT_TO_WORRY": "No te preocupes, te respaldamos",
+        "LETS_GET_YOU_NEW_PASSWORD": "Vamos a conseguirte una nueva contraseña",
+        "RESET_PASSWORD": "Restablecer la contraseña"
+    },
+	"VERIFY_EMAIL": {
+        "HI": "Hola",
+        "INVITED": "has sido invitado a",
+        "SPECIAL_PRIVILEGES": "En tant qu'administrateur,Como administrador, tiene privilegios especiales como ___. Todo lo que tiene que hacer ahora es verificar su correo electrónico haciendo clic en el botón, esto lo redirigirá a su panel de administración",
+        "VERIFY_EMAIL": "Verificar correo electrónico",
+        "EMAIL_INVITATION": "Invitación por correo electrónico batcoin"
+    },
+    "MFA_EMAIL": {
+        "IF_IT_WAS_NOT_YOU": "Si no fue usted quien intentó iniciar sesión, contáctenos en",
+        "YOUR_ARE_TRYING_TO_LOGIN": "Estás intentando iniciar sesión con este correo electrónico",
+        "ENTER_CODE": "Inserte el código",
+        "THANKS": "Gracias",
+        "HI": "Hola",
+        "TEAM": "Equipo",
+        "OTP_VERIFICATION_CODE": "BATCOIN Verificación de contraseña de una sola vez"
+    }
+}

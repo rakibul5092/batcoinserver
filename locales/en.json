@@ -1,0 +1,46 @@
+{
+    "ORDER_EMAIL":{
+        "HI": "Hi",
+        "YOUR_ORDER_IS_CONFIRMED": "Your order is confirmed",
+        "THANK_YOU_FOR_YOUR_ORDER": "Thank you for ordering. Your order is being processed. Your total is",
+        "ORDER_ID": "Order ID",
+        "VIEW_OR_MANAGE_ORDER": "View or manage your order",
+        "SUBTOTAL": "Subtotal",
+        "TAX": "Tax",
+        "TOTAL": "Total",
+        "HERE_ARE_THE_DETAILS_OF_YOUR_ORDER": "Here are the details of your order",
+        "SHIPPING_TRACKING_LINK": "Shipping tracking link",
+        "THANKS": "Thanks"
+    },
+    "REGISTRATION_EMAIL":{
+        "HI": "Hi",
+        "THANKS_FOR_JOINING": "Thanks for joining",
+        "TO_CONTINUE_PLEASE_CONFIRM": "To continue, please confirm your email address",
+        "CLICK_BELLOW": "by clicking the below button",
+        "CONFIRM_EMAIL": "Confirm Email",
+        "EMAIL_VERIFICATION": "Batcoin Email Verification"
+    },
+    "CONFIRM_PASSWORD_EMAIL": {
+        "HI": "Hi",
+        "FORGOT_YOUR_PASSWORD": "Forgot YOUR Password",
+        "NOT_TO_WORRY": "Not to worry, we got your back",
+        "LETS_GET_YOU_NEW_PASSWORD": "Let's get you a new password",
+        "RESET_PASSWORD": "Reset Password"
+    },
+    "VERIFY_EMAIL": {
+        "HI": "Hi",
+        "INVITED": "You have been invited to",
+        "SPECIAL_PRIVILEGES": " As an admin you have special privileges such as ___. All you have to do now is verify your email by clicking the button, this will redirect you to your admin dashboard",
+        "VERIFY_EMAIL": "Verify Email",
+        "EMAIL_INVITATION": "Batcoin Email Invitation"
+    },
+    "MFA_EMAIL": {
+        "IF_IT_WAS_NOT_YOU": "If it wasn't you that was trying to login, please contact us at",
+        "YOUR_ARE_TRYING_TO_LOGIN": "You're trying to log in with this email",
+        "ENTER_CODE": "Enter the code",
+        "THANKS": "Thanks",
+        "HI": "Hi",
+        "TEAM": "Team",
+        "OTP_VERIFICATION_CODE": "BATCOIN: One time password verification"
+    }
+}

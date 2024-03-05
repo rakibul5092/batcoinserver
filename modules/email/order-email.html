@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="{{currentLocale}}">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Order</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css" />
+
+  <style media="screen"></style>
+  <style>
+    [data-icon]:before {
+      font-family: icons;
+      /* BYO icon font, mapped smartly */
+      content: attr(data-icon);
+      speak: none;
+      /* Not to be trusted, but hey. */
+    }
+  </style>
+</head>
+
+<body bgcolor="#6cc8bf" style="background-color: #6cc8bf; width: 100%; margin: 0px; padding: 0px">
+  <table bgcolor="#6cc8bf" border="0" cellpadding="0" cellspacing="0" style="background-color: #6cc8bf" width="100%">
+    <tr>
+      <td align="center" style="width: 100%">
+        <table align="center" border="0" cellpadding="0" cellspacing="0"
+          style="width: 100%; max-width: 540px; margin: 0 auto; padding: 10px" width="620">
+          <tr>
+            <td style="width: 100%; padding: 25px 15px 15px 15px">
+              <table align="center" style="width: 100%; padding: 0px; margin: 0 auto">
+                <tbody>
+                  <tr>
+                    <td style="text-align: center; padding: 0">
+                      <a href="https://thebatcoin.com/" style="text-decoration: none">
+                        <p style="
+                              width: 100%;
+                              max-width: 400px;
+                              margin: 0px auto;
+                              font-family: 'Open Sans', 'Helvetica Neue',
+                                'Segoe UI', Helvetica, Arial, sans-serif;
+                              font-size: 18px;
+                              font-weight: 600;
+                              color: #000;
+                              line-height: 25px;
+                            ">
+                          The Batcoin
+                        </p>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 100%">
+              <table style="width: 100%">
+                <tr>
+                  <td align="center" style="
+                        background-color: #fff;
+                        width: 100%;
+                        padding: 60px 20px;
+                        border-radius: 0px;
+                      ">
+                    <table align="center" style="width: 100%; padding: 0px; margin: 0 auto">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" style="text-align: center; padding: 0 0 40px 0">
+                            <a href="#" style="pointer-events: none">
+                              <img alt="" height="198" src="https://i.imgur.com/6J9Nh8p.png"
+                                style="width: 230px; height: 198px" width="230" />
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; padding: 10px 0">
+                            <h4 style="
+                                  width: 100%;
+                                  max-width: 400px;
+                                  margin: 0px auto;
+                                  font-family: 'Open Sans', 'Helvetica Neue',
+                                    'Segoe UI', Helvetica, Arial, sans-serif;
+                                  font-size: 18px;
+                                  font-weight: 600;
+                                  color: #353535;
+                                  line-height: 30px;
+                                ">
+                              {{#t}}HI{{/t}} {{username}},
+                            </h4>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; padding: 10px 0">
+                            <p style="
+                                  width: 100%;
+                                  max-width: 400px;
+                                  margin: 0px auto;
+                                  font-family: 'Open Sans', 'Helvetica Neue',
+                                    'Segoe UI', Helvetica, Arial, sans-serif;
+                                  font-size: 16px;
+                                  font-weight: bold;
+                                  color: green;
+                                  line-height: 25px;
+                                ">
+                              ✔ {{#t}}YOUR_ORDER_IS_CONFIRMED{{/t}}.
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; padding: 10px 0">
+                            <p style="
+                                  width: 100%;
+                                  max-width: 400px;
+                                  margin: 0px auto;
+                                  font-family: 'Open Sans', 'Helvetica Neue',
+                                    'Segoe UI', Helvetica, Arial, sans-serif;
+                                  font-size: 16px;
+                                  font-weight: 600;
+                                  color: #797979;
+                                  line-height: 25px;
+                                ">
+                              {{#t}}THANK_YOU_FOR_YOUR_ORDER{{/t}} ${{total}}.
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; padding: 10px 0">
+                            <span style="
+                                  width: 100%;
+                                  max-width: 400px;
+                                  margin: 0px auto;
+                                  font-family: 'Open Sans', 'Helvetica Neue',
+                                    'Segoe UI', Helvetica, Arial, sans-serif;
+                                  font-size: 16px;
+                                  font-weight: 600;
+                                  color: #797979;
+                                  line-height: 25px;
+                                ">
+                              {{#t}}ORDER_ID{{/t}}: #{{order_id}}
+                            </span>
+                            <br />
+                            <div align="left" bgcolor="#234159" style="
+                                        margin: 0 auto;
+                                        display: inline-block;
+                                        background-color: #234159;
+                                        width: 200px;
+                                        height: 40px;
+                                      " valign="top">
+                              <a href="" style="
+                                          margin: 0;
+                                          padding: 0;
+                                          width: 200px;
+                                          font-family: 'Open Sans',
+                                            'Helvetica Neue', 'Segoe UI',
+                                            Helvetica, Arial, sans-serif;
+                                          font-size: 16px;
+                                          font-weight: 600;
+                                          line-height: 40px;
+                                          color: #fff;
+                                          text-align: center;
+                                          background-color: #234159;
+                                          display: inline-block;
+                                          text-decoration: none;
+                                          box-sizing: border-box;
+                                          border: 0;
+                                          height: 40px;
+                                        " target="_blank">{{#t}}VIEW_OR_MANAGE_ORDER{{/t}}</a>
+                            </div>
+                          </td>
+                          <td style="text-align: right; padding: 10px 0">
+                            <p style="
+                            width: 100%;
+                            max-width: 400px;
+                            margin: 0px auto;
+                            font-family: 'Open Sans', 'Helvetica Neue',
+                              'Segoe UI', Helvetica, Arial, sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #797979;
+                            line-height: 25px;
+                          ">
+                              {{#t}}SUBTOTAL{{/t}}: ${{subtotal}}
+                            </p>
+                            <p style="
+                            width: 100%;
+                            max-width: 400px;
+                            margin: 0px auto;
+                            font-family: 'Open Sans', 'Helvetica Neue',
+                              'Segoe UI', Helvetica, Arial, sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #797979;
+                            line-height: 25px;
+                          ">
+                              + {{#t}}SUBTOTAL{{/t}}: ${{tax}}
+                            </p>
+                            <p style="
+                            width: 100%;
+                            max-width: 400px;
+                            margin: 0px auto;
+                            font-family: 'Open Sans', 'Helvetica Neue',
+                              'Segoe UI', Helvetica, Arial, sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #797979;
+                            line-height: 25px;
+                          ">
+                              {{#t}}TOTAL{{/t}}: ${{total}}
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="2" style="text-align: left; padding: 10px 0">
+                            <p style="
+                                  width: 100%;
+                                  max-width: 400px;
+                                  text-align: left;
+                                  font-family: 'Open Sans', 'Helvetica Neue',
+                                    'Segoe UI', Helvetica, Arial, sans-serif;
+                                  font-size: 16px;
+                                  font-weight: 600;
+                                  color: #797979;
+                                  line-height: 25px;
+                                ">
+                              {{#t}}HERE_ARE_THE_DETAILS_OF_YOUR_ORDER{{/t}}:
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; padding: 10px 0">
+                            <table style="width: 100%;padding: 0; margin: 0 auto;">
+                              {{#selectedProducts}}
+                              <tr>
+
+                                <td style="text-align: left; padding: 10px 0">
+
+                                  <img style="height: 3rem"
+                                    src='https://dev-batcoinproductimages.s3.us-west-2.amazonaws.com/{{product.imageUrl}}' />
+                                </td>
+                                <td style="text-align: left; padding: 10px 0">
+                                  <p style="
+                                  width: 100%;
+                                  max-width: 400px;
+                                  font-family: 'Open Sans', 'Helvetica Neue',
+                                    'Segoe UI', Helvetica, Arial, sans-serif;
+                                  font-size: 16px;
+                                  font-weight: 600;
+                                  color: #797979;
+                                  line-height: 25px;
+                                ">
+                                  {{#product.title}}{{ getProductTitle }}{{/product.title}}
+                                  </p>
+                                </td>
+
+
+                                <td>
+                                  <p style="
+                                   width: 100%;
+                                   max-width: 400px;
+                                   font-family: 'Open Sans', 'Helvetica Neue',
+                                     'Segoe UI', Helvetica, Arial, sans-serif;
+                                   font-size: 16px;
+                                   font-weight: 600;
+                                   color: #797979;
+                                   line-height: 25px;">
+                                    ${{product.currentPrice}}
+                                  </p>
+
+                                </td>
+                              </tr>
+                              {{/selectedProducts}}
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="2" border="0" cellpadding="0" cellspacing="0"
+                            style="text-align: center; padding: 40px 0 20px 0">
+                            <table align="center">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#234159" style="
+                                        margin: 0 auto;
+                                        display: inline-block;
+                                        background-color: #234159;
+                                        border-radius: 30px;
+                                        width: 300px;
+                                        height: 60px;
+                                      " valign="top">
+                                    <a href='{{tracker.public_url}}' style="
+                                          margin: 0;
+                                          padding: 0;
+                                          width: 300px;
+                                          font-family: 'Open Sans',
+                                            'Helvetica Neue', 'Segoe UI',
+                                            Helvetica, Arial, sans-serif;
+                                          font-size: 18px;
+                                          font-weight: 600;
+                                          line-height: 60px;
+                                          color: #fff;
+                                          text-align: center;
+                                          background-color: #234159;
+                                          border-radius: 30px;
+                                          display: inline-block;
+                                          text-decoration: none;
+                                          box-sizing: border-box;
+                                          border: 0;
+                                        " target="_blank">{{#t}}SHIPPING_TRACKING_LINK{{/t}}</a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center"  style="margin: 10px auto; display: inline-block; font-size: 16px;" valign="top">
+                                    <span style="font-weight: bold;">Shipping Rate :</span> ${{shipmentRate}}
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 100%; padding: 25px 0 40px 0">
+              <table>
+                <tr>
+                  <td width="160">
+                    <p style="
+                          width: 100%;
+                          margin: 0;
+                          padding: 0;
+                          font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI',
+                            Helvetica, Arial, sans-serif;
+                          font-size: 12px;
+                          font-weight: 600;
+                          color: #234159;
+                          line-height: 16px;
+                        ">
+                      {{#t}}THANKS{{/t}},
+                    </p>
+                    <p style="
+                          width: 100%;
+                          margin: 0;
+                          padding: 0;
+                          font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI',
+                            Helvetica, Arial, sans-serif;
+                          font-size: 12px;
+                          font-weight: 600;
+                          color: #234159;
+                          line-height: 16px;
+                        ">
+                      Team Batcoin.
+                    </p>
+                  </td>
+                  <td width="200"></td>
+                  <td align="right" style="text-align: right" width="160">
+                    <a href="javascript:void(0);" style="margin-left: 10px"><img alt="Facebook" border="0" class=""
+                        height="16" src="https://i.imgur.com/lJj4Gai.png" width="16" /></a>
+                    <a href="javascript:void(0);" style="margin-left: 10px"><img alt="LinkedIn" border="0" class=""
+                        height="16" src="https://i.imgur.com/YXXvxEt.png" width="16" /></a>
+                    <a href="javascript:void(0);" style="margin-left: 10px"><img alt="Twitter" border="0" class=""
+                        height="16" src="https://i.imgur.com/aVX325z.png" width="16" /></a>
+                    <a href="javascript:void(0);" style="margin-left: 10px"><img alt="Instagram" border="0" class=""
+                        height="16" src="https://i.imgur.com/kTGWhZm.png" width="16" /></a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

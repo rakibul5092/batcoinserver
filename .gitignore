@@ -1,0 +1,8 @@
+node_modules
+config.js
+
+# System Files
+.DS_Store
+Thumbs.db
+.idea/
+.history/

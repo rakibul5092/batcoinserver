@@ -1,0 +1,47 @@
+{
+    "hello": "hello",
+    "ORDER_EMAIL":{
+        "HI": "Salut",
+        "YOUR_ORDER_IS_CONFIRMED": "Votre commande est confirmée",
+        "THANK_YOU_FOR_YOUR_ORDER": "Merci pour la commande. Votre commande est en traitement. Votre total est",
+        "ORDER_ID": "numéro de commande",
+        "VIEW_OR_MANAGE_ORDER": "Afficher ou gérer votre commande",
+        "SUBTOTAL": "Subtotal",
+        "TAX": "Impôt",
+        "TOTAL": "Total",
+        "HERE_ARE_THE_DETAILS_OF_YOUR_ORDER": "Voici les détails de votre commande",
+        "SHIPPING_TRACKING_LINK": "Lien de suivi d'expédition",
+        "THANKS": "Merci"
+    },
+    "REGISTRATION_EMAIL":{
+        "HI": "Salut",
+        "THANKS_FOR_JOINING": "Merci d'avoir rejoint",
+        "TO_CONTINUE_PLEASE_CONFIRM": "Pour continuer, veuillez confirmer votre adresse e-mail",
+        "CLICK_BELLOW": "en cliquant sur le bouton ci-dessous",
+        "CONFIRM_EMAIL": "Confirmez votre email",
+        "EMAIL_VERIFICATION": "vérification des e-mails batcoin"
+    },
+    "CONFIRM_PASSWORD_EMAIL": {
+        "HI": "Salut",
+        "FORGOT_YOUR_PASSWORD": "Mot de passe oublié",
+        "NOT_TO_WORRY": "Ne vous inquiétez pas, nous vous soutenons",
+        "LETS_GET_YOU_NEW_PASSWORD": "Obtenons un nouveau mot de passe",
+        "RESET_PASSWORD": "réinitialiser le mot de passe"
+    },
+    "VERIFY_EMAIL": {
+        "HI": "Salut",
+        "INVITED": "Vous avez été invité à",
+        "SPECIAL_PRIVILEGES": " En tant qu'administrateur, vous disposez de privilèges spéciaux tels que ___. Il ne vous reste plus qu'à vérifier votre email en cliquant sur le bouton, cela vous redirigera vers votre tableau de bord d'administration",
+        "VERIFY_EMAIL": "Vérifier les courriels",
+        "EMAIL_VERIFICATION": "vérification des e-mails batcoin"
+    },
+    "MFA_EMAIL": {
+        "IF_IT_WAS_NOT_YOU": "Si ce n'est pas vous qui essayiez de vous connecter, veuillez nous contacter à",
+        "YOUR_ARE_TRYING_TO_LOGIN": "Vous essayez de vous connecter avec cet e-mail",
+        "ENTER_CODE": "Entrer le code",
+        "THANKS": "Merci",
+        "HI": "Salut",
+        "TEAM": "Équipe",
+        "OTP_VERIFICATION_CODE": "BATCOIN: Vérification unique du mot de passe"
+    }
+}
